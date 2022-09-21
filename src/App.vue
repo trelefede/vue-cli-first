@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <AppTitle msg="La mia prima app con Vue CLI!" />
+    <JumboTron />
   </div>
 </template>
 
 <script>
 import AppTitle from './components/HelloWorld.vue'
+import JumboTron from './components/JumboTron.vue';
 
 export default {
   name: 'App',
   components: {
     AppTitle,
-
+    JumboTron
   }
 }
 </script>
